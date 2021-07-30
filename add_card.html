@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="add_prduct_style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+</head>
+<body>
+ <br/>
+<div class="container">
+    <div class="row">
+       <div class="col-sm-3">
+            <div class="card">
+                <img class="card-img-top img_h_w" id="img" src="image/one.jpg" id="p_img1"  alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title" id="card_tit">
+                        <label class="add_product" id="one">Product-1</label>
+                    </h4>
+                    <button id="btn_product1" class="btn btn-primary product-addtoCart">Add-Product</button>
+                </div>
+            </div>
+        </div>
+       <div class="col-sm-3">
+            <div class="card">
+                <img class="card-img-top img_h_w" src="image/two.jpg"  alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title"><label class="add_product" id="two">Product-2</label></h4>
+                    <button id="btn_product2" class="btn btn-primary product-addtoCart">Add-Product</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card">
+                <img class="card-img-top img_h_w" src="image/three.jpg"  alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title"><label class="add_product" id="1">Product-3</label></h4>
+                    <button id="btn_product3" class="btn btn-primary product-addtoCart">Add-Product</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-img-top img_h_w"  src="image/forth.jpg"  alt="Card image">
+                    <h4 class="card-title"><label class="add_product">Product-4</label></h4>
+                    <button id="btn_product4" class="btn btn-primary product-addtoCart">Add-Product</button>
+                </div>
+            </div>
+        </div> 
+        <div class="col-sm-4 margin-top">
+            <div class="card">
+                <center><h3>Product-Image</h3></center>
+            </div>
+        </div>
+        <div class="col-sm-4 margin-top">
+            <div class="card">
+                <center><h3>Poduct_Name</h3></center>
+            </div>
+        </div>
+        <div class="col-sm-4 margin-top">
+            <div class="card">
+                <center><h3>Product_Quantity</h3></center>
+            </div>
+        </div>
+
+        <div class="col-sm-4 margin-top">
+            <div class="card" id="prd_img">
+            </div>
+        </div>
+        <div class="col-sm-4 margin-top">
+            <div class="card" id="prd_nm">
+            </div>
+        </div>
+        <div class="col-sm-4 margin-top">
+            <div class="card" id="prd_qty">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="add_product.js"></script>
+<!---<script src="script1.js"></script>-->
+</body>
+</html>
